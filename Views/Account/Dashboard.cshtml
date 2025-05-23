@@ -1,0 +1,53 @@
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="bg-gray-100 min-h-screen">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold text-gray-800">Account Dashboard</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800">Account Details</h2>
+            <p class="mt-4 text-gray-600">Username: <span class="font-semibold">@TempData["Username"]</span></p>
+            <p class="mt-2 text-gray-600">Email: <span class="font-semibold">user@example.com</span></p>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800">Payment Methods</h2>
+            <ul class="mt-4 space-y-4">
+                <li class="bg-white shadow rounded-lg p-4">
+                    <p class="text-gray-800 font-semibold">Visa **** 1234</p>
+                    <p class="text-gray-600">Expires: 12/25</p>
+                </li>
+                <li class="bg-white shadow rounded-lg p-4">
+                    <p class="text-gray-800 font-semibold">MasterCard **** 5678</p>
+                    <p class="text-gray-600">Expires: 11/24</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold text-gray-800">Purchase History</h2>
+            <ul class="mt-4 space-y-4">
+                <li class="bg-white shadow rounded-lg p-4">
+                    <p class="text-gray-800 font-semibold">Order #12345</p>
+                    <p class="text-gray-600">Date: 2025-05-15</p>
+                    <p class="text-gray-600">Total: $299.99</p>
+                </li>
+                <li class="bg-white shadow rounded-lg p-4">
+                    <p class="text-gray-800 font-semibold">Order #12346</p>
+                    <p class="text-gray-600">Date: 2025-05-10</p>
+                    <p class="text-gray-600">Total: $149.99</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Spartan Tech Store. All rights reserved.</p>
+        </div>
+    </footer>
+</div>

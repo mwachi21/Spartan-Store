@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="bg-gray-100 min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Spartan Tech Store</h1>
+            <ul class="flex space-x-6">
+                <li><a href="/" class="text-gray-600 hover:text-gray-800">Home</a></li>
+                <li><a href="/Products" class="text-gray-600 hover:text-gray-800">Products</a></li>
+                <li><a href="/Contact" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+                <li><a href="/Cart" class="text-gray-600 hover:text-gray-800">Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-500 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl font-extrabold">Welcome to Spartan Tech Store</h2>
+            <p class="mt-4 text-lg">Your one-stop shop for the latest and greatest in tech products.</p>
+            <a href="/Products" class="mt-6 inline-block bg-white text-blue-500 px-6 py-3 rounded shadow hover:bg-gray-100">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <main class="container mx-auto px-4 py-10">
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white shadow rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Product 1</h3>
+                    <p class="text-gray-600 mt-2">High-quality tech product to meet your needs.</p>
+                    <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white shadow rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Product 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Product 2</h3>
+                    <p class="text-gray-600 mt-2">Innovative and reliable tech solutions.</p>
+                    <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white shadow rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Product 3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Product 3</h3>
+                    <p class="text-gray-600 mt-2">Cutting-edge technology at your fingertips.</p>
+                    <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Spartan Tech Store. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
